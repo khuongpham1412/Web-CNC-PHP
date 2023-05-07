@@ -1,0 +1,148 @@
+/* --------------- Account Dropdown -------------- */
+
+.dropbtn {
+  background-color: white;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+color:blue;
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #454545;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+padding: 12px 16px;
+z-index: 1;
+right: 0;
+}
+
+.dropdown-content a {
+color: white;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content a:hover {text-decoration: underline; }
+
+.show {display:block;}
+
+/* --------------- Cart Button -------------- */
+
+.btncart{
+margin-left: 10px;
+}
+.fas{
+background-color: transparent;
+}
+
+/* --------------- Order Form -------------- */
+.orderform{
+border: 3px lightgrey solid;
+width: 800px;
+margin: auto;
+margin-bottom: 50px;
+text-align: center;
+background-color: lightgrey;
+}
+
+.ordernote{
+min-width: 600px;
+min-height: 100px;
+max-width: 600px;
+max-height: 100px;
+}
+.ordernote:focus{
+border: 1px red solid;
+border-radius: 5px;
+}
+
+.ordertxt{
+min-width: 250px;
+min-height: 30px;
+max-width: 250px;
+max-height: 30px;
+}
+
+.ordertxt:focus{
+border: 1px red solid;
+border-radius: 5px;
+}
+
+
+/* --------------- Empty Cart -------------- */
+.emptycart{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+.emptytxt{
+color: #ff4242;
+font-family: arial;
+text-align: center;
+margin-bottom: 30px;
+}
+
+/* --------------- Reg form -------------- */
+
+#error1{
+font-size: 12px;
+}
+#error2{
+font-size: 12px;
+}
+#error3{
+font-size: 12px;
+}
+#error4{
+font-size: 12px;
+}
+#error5{
+font-size: 12px;
+}
+
+#user,#pass,#name,#phone,#address{
+  background-color: #dadada;
+  width: 100%;
+  border-radius: 5px;
+  min-height: 30px;
+  max-height: 30px;
+  margin-bottom: 3px;
+  margin-top: 3px;
+  padding-left: 10px;
+}
+
+input[type="text"]#user:focus{
+  border: 2px red solid;
+}
+input[type="text"]#pass:focus{
+  border: 2px red solid;
+}
+input[type="text"]#name:focus{
+  border: 2px red solid;
+  background-color: #f1f1f1;
+}
+input[type="text"]#address:focus{
+  border: 2px red solid;
+  background-color: #f1f1f1;
+}
+input[type="text"]#phone:focus{
+  border: 2px red solid;
+  background-color: #f1f1f1;
+}
+ .btn{
+   border:0px;
+ }

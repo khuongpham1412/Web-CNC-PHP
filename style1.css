@@ -1,0 +1,134 @@
+/* This part forward is thanks to the*****************************************
+ courtesy of yours one and truly**********************************************
+, B1tCh C4m3l. No need to thank me.*******************************************
+*/
+/* --------------- Search Bar -------------- */
+.searchbar{
+    margin: 10px;
+    min-width: 250px;
+    min-height: 30px;
+    max-width: 250px;
+    max-height: 30px;
+    border-radius: 0;
+    border: 1px #d6d6d6 solid;
+    background-color: #e3e3e3;
+    padding-left: 5px;
+}
+
+.searchbar:focus{
+    background-color: white;
+}
+
+input[type="text"].searchbar:focus{
+    border: 1px red solid;
+}
+
+.btnsearch{
+    border:2px solid #34a1eb;
+    margin : 1px; 
+    color: white;
+    background-color: #34a1eb; 
+    box-shadow: 2px 2px 1px grey; 
+    border-radius: 5px; 
+    min-width: 70px;
+    min-height: 30px;
+    max-width: 70px;
+    max-height: 30px;
+}
+input[type="submit"].btnsearch:hover{
+    border:2px solid #1607ba;
+    background-color: #1607ba;
+}
+input[type="submit"].btnsearch:active{
+    border:2px solid #de34eb;
+    background-color: #de34eb;
+}
+
+/* --------------- Cart Header -------------- */
+.productSize{
+    text-align: center;
+}
+.productColor{
+    text-align: center;
+}
+
+/* --------------- Buy Button -------------- */
+
+.buybutton{
+    min-width: 130px;
+    min-height: 40px;
+    max-width: 130px;
+    max-height: 40px;
+    border: solid #22a800;
+    margin : 1px; 
+    color: white;
+    background-color: #22a800; 
+    box-shadow: 2px 2px 1px grey; 
+    border-radius: 5px; 
+    font-size: large;
+    float: right;
+}
+@keyframes glowing {
+    0% {
+        background-color: #2ba805;
+        box-shadow: 0 0 3px #2ba805;
+        border: solid #2ba805;
+    }
+    50% {
+        background-color: #09ed78;
+        box-shadow: 0 0 10px #09ed78;
+        border: solid #09ed78;
+    }
+    100% {
+        background-color: #2ba805;
+        box-shadow: 0 0 3px #2ba805;
+        border: solid #2ba805;
+    }
+}
+.buybutton{
+    animation: glowing 1500ms infinite;
+}
+
+/* --------------- Add/Remove Button -------------- */
+.removebutton{
+    min-width: 30px;
+    min-height: 30px;
+    max-width: 30px;
+    max-height: 30px;
+    border:2px solid #fa3e05;
+    margin : 1px; 
+    color: white;
+    background-color: #fa3e05; 
+    box-shadow: 2px 2px 1px grey; 
+    border-radius: 5px; 
+
+}
+.removebutton:hover{
+    border:2px solid #ff7e57;
+    background-color: #ff7e57;
+}
+.removebutton:active{
+    border:2px solid #4aff4a;
+    background-color: #4aff4a;
+}
+.addbutton{
+    min-width: 30px;
+    min-height: 30px;
+    max-width: 30px;
+    max-height: 30px;
+    border:2px solid #fa3e05;
+    margin : 1px; 
+    color: white;
+    background-color: #fa3e05; 
+    box-shadow: 2px 2px 1px grey; 
+    border-radius: 5px; 
+
+}
+.addbutton:hover{
+    border:2px solid #ff7e57;
+    background-color: #ff7e57;
+}
+.addbutton:active{
+    border:2px solid #4aff4a;
+    background-color: #4aff4a;
+}

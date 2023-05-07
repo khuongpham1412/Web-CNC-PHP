@@ -1,0 +1,19 @@
+/* .addform{
+    border: solid black 1px;
+    width: 500px;
+    margin: auto;
+    margin-top:20px;
+    padding-bottom:0;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+.addtxt:focus{
+    border: solid red 2px;
+    border: 5px;
+
+} */
+
+.pagination{
+  background-color: red;
+}
